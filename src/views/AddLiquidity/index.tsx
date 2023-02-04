@@ -165,6 +165,7 @@ export default function AddLiquidity() {
       const tokenBIsBNB = currencyB === ETHER
       estimate = routerContract.estimateGas.addLiquidityETH
       method = routerContract.addLiquidityETH
+
       args = [
         wrappedCurrency(tokenBIsBNB ? currencyA : currencyB, chainId)?.address ?? '', // token
         (tokenBIsBNB ? parsedAmountA : parsedAmountB).raw.toString(), // token desired

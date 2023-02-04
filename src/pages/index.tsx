@@ -99,6 +99,7 @@ export const getStaticProps: GetStaticProps = async () => {
         since: days30Ago.toISOString(),
         till: new Date().toISOString(),
       })
+
       if (result?.ethereum?.dexTrades?.[0]?.count) {
         results.addressCount30Days = result.ethereum.dexTrades[0].count
       }

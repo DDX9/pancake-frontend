@@ -13,7 +13,7 @@ const farms: SerializedFarmConfig[] = [
     v1pid: 0,
     lpSymbol: 'CAKE',
     lpAddresses: {
-      97: '',
+      97: '0x850583AEDB8d13d2D440842CD6C88007adf661ff', // --replace
       56: '0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82',
     },
     token: serializedTokens.syrup,
@@ -24,7 +24,7 @@ const farms: SerializedFarmConfig[] = [
     v1pid: 251,
     lpSymbol: 'CAKE-BNB LP',
     lpAddresses: {
-      97: '0x3ed8936cAFDF85cfDBa29Fbe5940A5b0524824F4',
+      97: '0x6D3767e83426Bd9Be92C19e7aBe46Ba2b4B487F0', // --replace
       56: '0x0eD7e52944161450477ee417DE9Cd3a859b14fD0',
     },
     token: serializedTokens.cake,

@@ -2125,9 +2125,9 @@ export const testnetTokens = defineTokens({
   ),
   cake: new Token(
     TESTNET,
-    '0xa35062141Fa33BCA92Ce69FeD37D0E8908868AAe',
+    '0x850583AEDB8d13d2D440842CD6C88007adf661ff', // custom cake
     18,
-    'CAKE',
+    'CCAKE',
     'PancakeSwap Token',
     'https://pancakeswap.finance/',
   ),
